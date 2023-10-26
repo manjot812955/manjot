@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <p>Simple Guessing Game</p>
+<input type="number" id="guessingTextbox" placeholder="Enter a number">
+    <br>
+    <input type="radio" name="option" id="over35" value="over35" checked> Over 35
+    <br>
+    <input type="radio" name="option" id="below35" value="below35"> Below 35
+    <br>
+    <button id="runButton">RUN</button>
+    <br>
+    
+    <p id="result"></p>
+    <button id="resetButton">Reset</button>
+</body>
+<script src="script.js"></script>
+</html>
+
